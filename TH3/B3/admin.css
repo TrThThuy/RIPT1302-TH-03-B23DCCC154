@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #ffffff;
+}
+
+th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ffffff;
+    text-align: left;
+}
+
+th {
+    background-color: #e9ebe1;
+    color: rgb(81, 82, 143);
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+
+#add-button {
+    padding: 10px 20px;
+    background-color: #6450ad;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#add-button:hover {
+    background-color: #4645a0c5;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+
+
+
+

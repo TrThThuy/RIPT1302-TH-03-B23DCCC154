@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="bai2.css">
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="input-field">
+        <label for="num1">Number 1:</label>
+        <input type="number" id="num1" name="num1">
+    </div>
+    <div class="input-field">
+        <label for="num2">Number 2:</label>
+        <input type="number" id="num2" name="num2">
+    </div>
+    <button onclick="calculate()">Submit</button>
+    <div id="results">
+        <div class="result-field">
+            <label>Sum:</label>
+            <input type="text" id="sum" readonly>
+        </div>
+        <div class="result-field">
+            <label>Difference:</label>
+            <input type="text" id="difference" readonly>
+        </div>
+        <div class="result-field">
+            <label>Product:</label>
+            <input type="text" id="product" readonly>
+        </div>
+        <div class="result-field">
+            <label>Quotient:</label>
+            <input type="text" id="quotient" readonly>
+        </div>
+    </div>
+    <script src="bai2.js"></script>
+</body>
+</html>
+
